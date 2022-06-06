@@ -5,7 +5,7 @@ import { sizes } from 'shared/utils/styles';
 const paddingLeft = sizes.appNavBarLeftWidth + sizes.secondarySideBarWidth + 40;
 
 export const ProjectPage = styled.div`
-  padding: 25px 32px 50px ${paddingLeft}px;
+  padding: 30px 40px 50px ${paddingLeft}px;
 
   @media (max-width: 1100px) {
     padding: 25px 20px 50px ${paddingLeft - 20}px;
